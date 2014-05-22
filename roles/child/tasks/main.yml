@@ -1,0 +1,5 @@
+---
+
+- name: Echo something
+  debug: msg="This task should be run as a dependency of role 'y'"
+
